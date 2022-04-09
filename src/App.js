@@ -11,6 +11,7 @@ function App() {
     <React.Fragment>
       <MainHeader />
       <main>
+        <h6>hi</h6>
         {!ctx.isLoggedIn && <Login />}
         {ctx.isLoggedIn && <Home />}
       </main>

@@ -11,7 +11,7 @@ function App() {
     <React.Fragment>
       <MainHeader />
       <main>
-        <h6>this page is for context learning</h6>
+        <h6>this page is for context learning.()..</h6>
         {!ctx.isLoggedIn && <Login />}
         {ctx.isLoggedIn && <Home />}
       </main>
